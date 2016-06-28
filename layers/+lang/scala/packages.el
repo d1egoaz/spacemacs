@@ -19,7 +19,6 @@
 
 (defun scala/init-ensime ()
   (use-package ensime
-    :commands (ensime-mode)
     :init
     (progn
       (when scala-enable-eldoc
